@@ -1,0 +1,15 @@
+{
+  "name": "qa-automation-course",
+  "version": "1.0.0",
+  "description": "Omg second readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cypress": "^14.0.3"
+  }
+}
