@@ -8,9 +8,9 @@ console.log (message);
 
 
 let counter = 0;
-let a = counter++;
+let g = counter++;
 console.log(counter);
-console.log(a);
+console.log(g);
 
 
 
