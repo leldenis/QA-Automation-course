@@ -4,6 +4,7 @@ const users = [
     { name: "Vika", email: "vika@gmail.com", age: 28 }
 ];
 
-for (const { name, email, age } of users) {
+for (const user of users) {
+    const { name, email, age, city } = user;
     console.log(`Name: ${name}, Email: ${email}, Age: ${age}`);
 }
