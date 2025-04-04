@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Omg second readme",
   "main": "index.js",
-  "scripts": {"test": "echo \"No tests yet\"",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
     "prepare": "husky-init && npm install && husky install"
   },
   "author": "",
@@ -21,14 +22,14 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.0.0",
     "husky": "^8.0.0",
-"lint-staged": {
-  "*.js": [
-    "eslint --fix",
-    "prettier --write"
-  ]
-},
     "prettier": "^3.5.3",
     "typescript-eslint": "^8.29.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "keywords": []
 }
